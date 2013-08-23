@@ -1,0 +1,55 @@
+[user]
+	name = 
+	email = 
+[core]
+	quotepath = false
+	excludesfile = /Users/shingonakanishi/.gitignore
+#	pager = 
+	editor = /usr/bin/vim
+
+[color]
+	ui = true
+
+#[color "status"]
+#  added = yellow
+#  changed = green
+#  untracked = cyan
+
+[color "diff"]
+  meta = white reverse
+  frag = magenta bold
+  old = green
+  new = green
+  whitespace = white reverse
+
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan reverse
+  branch = magenta
+
+[alias]
+	ci = commit
+	ch = checkout
+	st = status
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
+[push]
+	default = current
+
+[pull]
+	default = current
+
+#[diff]
+#  external = p4diff
+
+#[diff]
+#  tool = ksdiff
+#[difftool "ksdiff"]
+#  cmd = "/usr/local/bin/ksdiff $LOCAL $REMOTE"
+#[difftool]
+#  prompt = false
+
+#[diff]
+#  external = /usr/local/bin/opendiff-git.sh 
