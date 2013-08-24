@@ -12,8 +12,8 @@ $ git clone git@github.com:shingo-nakanishi/git-config.git
 ### Make symbolic link
 
 ```
-$ ln -s gitconfig ~/.gitconfig
-$ ln -s gitignore ~/.gitignore
+$ ln -s "$HOME/my-config/git-config/gitconfig" ~/.gitconfig
+$ ln -s "$HOME/my-config/git-config/gitignore" ~/.gitignore
 ```
 
 ### Edit ~/.gitconfig
